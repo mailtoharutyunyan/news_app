@@ -1,11 +1,7 @@
 package am.ithd.newsapp
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-    }
-}
+@HiltAndroidApp
+class App : Application()
