@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--        Headlines-->
+    <style name="TextAppearance.DemoBank.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">@font/nexa_bold</item>
+    </style>
+
+</resources>
