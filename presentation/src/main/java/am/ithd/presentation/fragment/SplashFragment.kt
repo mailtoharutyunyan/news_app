@@ -35,6 +35,7 @@ class SplashFragment : Fragment(R.layout.splash_fragment) {
             NavHostFragment.findNavController(this)
                 .navigate(R.id.action_splashFragment_to_logInFragment)
         })
+
         viewModel.onCompleteLiveData.observe(viewLifecycleOwner, {
             {
                 NavHostFragment.findNavController(this)
